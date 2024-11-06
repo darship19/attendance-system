@@ -1,7 +1,7 @@
 import React from 'react';
 import Logout from '../components/Logout';
 import './Home.css'; 
-
+//home
 function Home() {
     // Retrieve the username from local storage
     const username = localStorage.getItem('username');
