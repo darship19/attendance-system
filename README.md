@@ -19,8 +19,8 @@ The School Attendance Management System enables schools to manage student attend
 ## Features
 
 - User authentication with JWT tokens
-- CRUD operations for managing attendance records
-- Separate views for attendance management
+- POST and GET FOR  operations for managing attendance records
+- Separate views for home and login
 - Protected routes requiring JWT authentication
 
 ## Technology Stack
