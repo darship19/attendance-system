@@ -50,7 +50,7 @@ The School Attendance Management System enables schools to manage student attend
     - Start the Spring Boot application.
     
     ```bash
-    cd backend
+    cd server
     ./mvnw spring-boot:run
     ```
 
@@ -59,7 +59,7 @@ The School Attendance Management System enables schools to manage student attend
     - Install dependencies and start the development server.
     
     ```bash
-    cd frontend
+    cd client
     npm install
     npm start
     ```
