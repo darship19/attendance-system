@@ -12,8 +12,6 @@ This project is a school attendance management system designed to handle student
 - [Screenshots](#screenshots)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
-- [License](#license)
-
 ## Project Overview
 
 The School Attendance Management System enables schools to manage student attendance securely and efficiently. Users (e.g., teachers or school admins) log in with a username and password to gain access to attendance management functions. The back-end API generates a JWT token upon successful authentication.
@@ -41,8 +39,8 @@ The School Attendance Management System enables schools to manage student attend
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/school-attendance-system.git
-    cd school-attendance-system
+   https://github.com/darship19/attendance-system.git
+    cd attendance-system
     ```
 
 2. **Back-End Setup (Spring Boot)**
@@ -72,28 +70,25 @@ The School Attendance Management System enables schools to manage student attend
 - **Attendance Management**: Access protected routes to manage student attendance, accessible only after logging in.
 
 ## Screenshots
+### Login Page
+![Login](./doc/LoginPage.png)
 
 ### Home Page
-![Home](./images/Home.png)
+![Home](./doc/Home.png)
 
-### Login Page
-![Login](./images/Login.png)
+
 
 ## API Endpoints
 
 | Method | Endpoint           | Description                                  |
 |--------|---------------------|----------------------------------------------|
-| POST   | `/api/auth/login`  | Authenticate user and generate JWT token     |
-| GET    | `/api/attendance`  | Retrieve attendance records (requires token) |
-| POST   | `/api/attendance`  | Add a new attendance record                  |
-| PUT    | `/api/attendance`  | Update an existing attendance record         |
-| DELETE | `/api/attendance`  | Delete an attendance record                  |
+| POST   | `/api/login`  | Authenticate user and generate JWT token     |
+| GET    | `/api/home`  | mark attendance |
+
 
 ## Testing
 
 - **Postman** was used for testing the API endpoints.
-- Use the JWT token received from `/api/auth/login` to authenticate requests to protected routes.
+- Use the JWT token received from `/api/login` to authenticate requests to protected routes.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
