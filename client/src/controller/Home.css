@@ -1,0 +1,24 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4A90E2, #8E44AD);
+}
+
+/* White box styling */
+.home-box {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Optional styling for the headings */
+h1, h2 {
+    color: #333333;
+    margin: 10px 0;
+}
